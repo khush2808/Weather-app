@@ -1,0 +1,56 @@
+.black{
+    background-color: gray;
+}
+
+.weatherimage{
+    color:white;
+    width:20px;
+    padding-bottom: 10px;
+    margin-right: 10px;
+
+}
+.data{
+    background-color: rgb(161, 209, 209);
+    height:110vh;
+}
+button{
+    padding: 0;
+    margin: 10px;
+}
+#cels{
+    
+    background-color: beige;
+}
+#submit{
+    color:white;
+}
+#submit:hover{
+color:orange;
+}
+h1 {
+    display:inline-block;
+    font-size: 72px;
+    background: -webkit-linear-gradient(blue, green);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+  h2{
+    display:inline-block;
+  }
+  .blocks{
+    text-align:center;
+    align-content: center;
+    background: beige;
+    border-radius: 5px;
+    border-color:blue;
+    display:inline-block;
+    width: 30vw;
+    height:200px;
+    margin-right:1vw;
+    margin-left:1vw;
+    padding:10px;
+  }
+  .row11{
+    display:inline-block;
+  }
+  

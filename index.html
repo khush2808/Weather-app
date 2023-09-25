@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather App</title>
+    <link rel="icon" type="image/x-icon" href="cloudy.png">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="styles.css">
+   
+
+</head>
+<body>
+    <nav class=" black navbar  " >
+        <div class="container-fluid">
+          <a class="navbar-brand"> <img  class = "weatherimage" src="cloudy.png" alt=""><p style="color:white;display:inline">Weather App</p></a>
+          <form class="d-flex" role="search">
+            <input class="form-control me-2" style="height: 40px;
+            margin-top:10px;" type="search" id ="search" placeholder="Search for your city" aria-label="Search">
+            <button class="btn bg-black btn-outline-warning"  id = "submit" type="submit">Search </button>
+          </form>
+        </div>
+      </nav>
+      <div class="data">
+        <div style = "text-align:center;"> <h1 id = "city" class ="blue"> Nadiad</h1><h1 class = "blue">'s Weather</h1></div>
+        <br><br>
+
+        
+        
+        
+
+
+        <div class = "row11">
+            <div class="blocks  " style= "margin-left:2vw;background-color: rgb(136, 149, 224);;">
+                <div> <h2>Temperature :</h2> <h2 id = "temperature1"></h2><h2 >°C</h2> </div>
+            </div>
+            <div class="blocks" style= "background-color: rgb(136, 149, 224);">
+                <div> <h2>Humidity:</h2> <h2 id = "humidity1"> </h2><h2 >%</h2> </div>
+            </div>
+            <div class="blocks " style="margin-right:0 ;background-color: rgb(136, 149, 224);">
+                <div> <h2>Wind :</h2> <h2 id = "wind-speed1"> </h2><h2 >km/hr</h2> </div>
+              </div>
+          </div>
+        
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          <script src = "script.js"></script>    
+</body>
+</html>
